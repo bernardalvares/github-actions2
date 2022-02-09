@@ -35,4 +35,7 @@ jobs:
           mkdir $HOME/Gem
           cd $HOME/Gem
           touch Gemfile
+      - name: Abrir Gemfile
+        run: |
+          cd $HOME/Gem
           cat Gemfile
